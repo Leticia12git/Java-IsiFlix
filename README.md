@@ -73,7 +73,7 @@ boolean result = (5 > 3) && (10 < 20); // Logical
 ###  4️⃣ Control Flow
 Control flow statements manage the order in which instructions are executed.
 
-🔹 If-Else Statement:
+### 🔹 If-Else Statement:
 
 if (number > 0) {
 System.out.println("Positive number");
@@ -107,6 +107,7 @@ System.out.println("Hello, World!");
 
 Java is an object-oriented language where classes are blueprints for objects.
 
+```bash
 java
 Copy code
 public class Dog {
@@ -128,31 +129,37 @@ int age;
 Dog myDog = new Dog("Buddy", 3);
 myDog.bark(); // Outputs: Buddy is barking.
 
+```
+
 ### ▶️ Running the Project
 
 To run the project, follow these steps:
 
-Clone this repository:
+1.Clone this repository:
 bash
 
 ```bash
 git clone https://github.com/yourusername/JavaBasicsProject.git
 ```
 
-Open the project in your preferred IDE.
-Navigate to the src/Main.java file.
-Run the file. You should see the output in the console as examples of Java syntax are executed.
-📄 License
+2.Open the project in your preferred IDE.
+3.Navigate to the src/Main.java file.
+4.Run the file. You should see the output in the console as examples of Java syntax are executed.
+
+### 📄 License
+
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-Extra Additions:
-Badges: You can add badges that represent tools used in the project (like Java version, GitHub actions, etc.)
-markdown
-Copy code
+## Extra Additions:
+
+- Badges: You can add badges that represent tools used in the project (like Java version, GitHub actions, etc.)
+
+```bash
 ![Java](https://img.shields.io/badge/Java-11-blue)
 ![Spring](https://img.shields.io/badge/SpringBoot-2.5.4-green)
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow)
-You can use animated icons like LottieFiles or add GIFs using Markdown image syntax:
-markdown
-Copy code
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow)`
+```
+
+- You can use animated icons like LottieFiles or add GIFs using Markdown image syntax:
+
 ![Java Animation](https://user-images.githubusercontent.com/123456789/animation.gif)
