@@ -1,33 +1,41 @@
-🚀 Java Basics Project
+### 🚀 Java Basics Project
+
 Welcome to the Java Basics Project! 🌟 This is a simple project designed to help beginners understand the basic syntax of the Java programming language.
 
 <p align="center"> <img src="https://user-images.githubusercontent.com/123456789/123456789-12345678-9a00-46ef-8d9f-98f12345678b.gif" alt="Java Logo" width="200"/> </p>
-📋 Table of Contents
+
+### 📋 Table of Contents
+
 Introduction
 Prerequisites
 Project Structure
 Basic Java Syntax
+
 1. Variables
 2. Data Types
 3. Operators
 4. Control Flow
 5. Methods
 6. Classes and Objects
+
 Running the Project
 License
-🧑‍💻 Introduction
+
+### 🧑‍💻 Introduction
+
 This project introduces the basic concepts of Java programming by demonstrating key language features. Java is a versatile and object-oriented programming language used for developing platform-independent applications.
 
 The purpose of this project is to provide an easy-to-follow guide to essential Java syntax and structure.
 
-🔧 Prerequisites
+### 🔧 Pre- requisites
+
 Before you start, ensure you have the following installed:
 
 🟦 JDK (Java Development Kit) (version 11 or higher)
 🟩 A Java IDE (e.g., Eclipse, IntelliJ IDEA, VSCode)
 🗂️ Project Structure
-less
-Copy code
+
+```bash
 JavaBasicsProject/
 │
 ├── src/
@@ -37,54 +45,66 @@ JavaBasicsProject/
 📚 Basic Java Syntax
 1️⃣ Variables
 In Java, variables are containers that hold data values. A variable must be declared before it can be used.
+```
 
+```bash
 java
-Copy code
+
 int number = 10; // Integer variable
 String name = "Java"; // String variable
-2️⃣ Data Types
+###  2️⃣ Data Types
 Java has two categories of data types:
 
 Primitive types: int, char, boolean, double, etc.
 Reference types: Objects and arrays.
-java
-Copy code
+```
+
+```bash
 boolean isJavaFun = true;
 double temperature = 36.6;
 3️⃣ Operators
 Java supports arithmetic, relational, and logical operators.
+```
 
-java
-Copy code
+```bash
 int sum = 5 + 10; // Arithmetic
 boolean isEqual = (5 == 5); // Relational
 boolean result = (5 > 3) && (10 < 20); // Logical
-4️⃣ Control Flow
+###  4️⃣ Control Flow
 Control flow statements manage the order in which instructions are executed.
 
 🔹 If-Else Statement:
-java
-Copy code
+
 if (number > 0) {
 System.out.println("Positive number");
 } else {
 System.out.println("Negative number");
 }
-🔹 For Loop:
-java
-Copy code
+
+```
+
+### 🔹 For Loop:
+
+```bash
 for (int i = 0; i < 5; i++) {
 System.out.println(i);
 }
-5️⃣ Methods
+
+```
+
+### 5️⃣ Methods
+
 A method is a block of code that performs a specific task. In Java, every program must have a main method where execution begins.
 
-java
-Copy code
+```bash
 public static void sayHello() {
 System.out.println("Hello, World!");
 }
-6️⃣ Classes and Objects
+
+```
+
+### 6️⃣ Classes and Objects
+
 Java is an object-oriented language where classes are blueprints for objects.
 
 java
@@ -107,13 +127,18 @@ int age;
 // Creating an object
 Dog myDog = new Dog("Buddy", 3);
 myDog.bark(); // Outputs: Buddy is barking.
-▶️ Running the Project
+
+### ▶️ Running the Project
+
 To run the project, follow these steps:
 
 Clone this repository:
 bash
-Copy code
+
+```bash
 git clone https://github.com/yourusername/JavaBasicsProject.git
+```
+
 Open the project in your preferred IDE.
 Navigate to the src/Main.java file.
 Run the file. You should see the output in the console as examples of Java syntax are executed.
