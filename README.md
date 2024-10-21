@@ -6,20 +6,20 @@ Welcome to the Java Basics Project! 🌟 This is a simple project designed to he
 
 ### 📋 Table of Contents
 
-Introduction
-Prerequisites
-Project Structure
-Basic Java Syntax
+1. Introduction
+2. Prerequisites
+3. Project Structure
+4. Basic Java Syntax
 
-1. Variables
-2. Data Types
-3. Operators
-4. Control Flow
-5. Methods
-6. Classes and Objects
+- 1. Variables
+- 2. Data Types
+- 3. Operators
+- 4. Control Flow
+- 5. Methods
+- 6. Classes and Objects
 
-Running the Project
-License
+5. Running the Project
+6. License
 
 ### 🧑‍💻 Introduction
 
