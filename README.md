@@ -42,45 +42,57 @@ JavaBasicsProject/
 │ └── Main.java // The main class where examples of basic syntax are presented.
 ├── README.md // Project description and syntax guide.
 └── .gitignore // Files to be ignored by git.
-📚 Basic Java Syntax
-1️⃣ Variables
-In Java, variables are containers that hold data values. A variable must be declared before it can be used.
+
 ```
 
+### 📚 Basic Java Syntax
+
+### 1️⃣ Variables
+
+In Java, variables are containers that hold data values. A variable must be declared before it can be used.
+
 ```bash
-java
 
 int number = 10; // Integer variable
 String name = "Java"; // String variable
-###  2️⃣ Data Types
+
+```
+
+### 2️⃣ Data Types
+
 Java has two categories of data types:
 
 Primitive types: int, char, boolean, double, etc.
 Reference types: Objects and arrays.
-```
 
 ```bash
 boolean isJavaFun = true;
 double temperature = 36.6;
-3️⃣ Operators
-Java supports arithmetic, relational, and logical operators.
 ```
+
+### 3️⃣ Operators
+
+Java supports arithmetic, relational, and logical operators.
 
 ```bash
 int sum = 5 + 10; // Arithmetic
 boolean isEqual = (5 == 5); // Relational
 boolean result = (5 > 3) && (10 < 20); // Logical
-###  4️⃣ Control Flow
+
+```
+
+### 4️⃣ Control Flow
+
 Control flow statements manage the order in which instructions are executed.
 
 ### 🔹 If-Else Statement:
 
+```bash
 if (number > 0) {
 System.out.println("Positive number");
 } else {
 System.out.println("Negative number");
 }
-
 ```
 
 ### 🔹 For Loop:
@@ -108,8 +120,7 @@ System.out.println("Hello, World!");
 Java is an object-oriented language where classes are blueprints for objects.
 
 ```bash
-java
-Copy code
+
 public class Dog {
 String name;
 int age;
